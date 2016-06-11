@@ -1,5 +1,6 @@
 cmake_minimum_required (VERSION 2.6)
 project (camera_device)
+set(CMAKE_CXX_FLAGS "-std=c++11 -O2")
 
 find_package( OpenCV REQUIRED )
 
